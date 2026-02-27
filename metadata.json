@@ -1,0 +1,5 @@
+{
+  "name": "Grimace Beat",
+  "description": "A face-controlled rhythm game where you smile, shake, and pout to the beat.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
