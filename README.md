@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Grimace Beat - 游玩指引
 
-# Run and deploy your AI Studio app
+欢迎来到 **Grimace Beat**！这是一款创新的面部控制节奏游戏，无需手柄，只需你的表情。
 
-This contains everything you need to run your app locally.
+## 🎮 核心玩法
+通过识别你的面部表情（微笑和嘟嘴）来击打音乐节拍。
 
-View your app in AI Studio: https://ai.studio/apps/221c23d5-057a-466b-af7d-79ce8946bf99
+## 🚀 快速开始
+1. **上传音乐**：点击主页的上传区域，选择你喜欢的音频文件（支持 MP3, WAV, OGG）。
+2. **截取片段**：
+   - 拖动波形图上的**白色手柄**选择你想挑战的片段（建议 10-30 秒）。
+   - 截取框内波形显示为**红色**即为选中区域。
+   - 点击“开始游戏”进入挑战。
+3. **授权相机**：在浏览器弹出提示时允许访问摄像头，确保你的脸部位于画面中央。
+4. **开始热舞**：随着音乐节奏做出相应的表情！
 
-## Run Locally
+## ⌨️ 表情指令
+*   **微笑 (Smile)**：击打**黄色**音符。
+*   **嘟嘴 (Pout)**：击打**粉色**音符。
 
-**Prerequisites:**  Node.js
+## 💡 游玩建议
+*   **光线充足**：确保你的面部光线均匀，避免背光。
+*   **面部居中**：保持脸部在摄像头视野正中心，以获得最佳识别精度。
+*   **表情夸张**：适当夸张的表情有助于系统更准确地捕捉动作。
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+© 2026 GRIMACE BEAT STUDIOS
